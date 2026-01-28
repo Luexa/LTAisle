@@ -1,0 +1,23 @@
+[project]
+name = "ltaisle"
+version = "0.1.0"
+description = "Aisle generator from structure files"
+authors = [
+    { name = "Lue" },
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "nbtlib ~= 1.12.1"
+]
+
+[dependency-groups]
+dev = [
+    "uv >= 0.9.26",
+]
+
+[build-system]
+requires = ["setuptools"]
+
+[tool.setuptools]
+packages = ["ltaisle"]
